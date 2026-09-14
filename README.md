@@ -29,11 +29,11 @@ Prerequisites: Node.js 22+ and Python 3 for the hidden credential prompt.
 4. Add to Codex (use absolute paths to your Node binary and this directory):
 
    ```sh
-   codex mcp add trmnl-playlist -- /absolute/path/to/node /absolute/path/to/trmnl-api-mcp/src/index.js
+   codex mcp add trmnl-api -- /absolute/path/to/node /absolute/path/to/trmnl-api-mcp/src/index.js
    ```
 
 5. Run `npm run check` to verify an actual stdio handshake and authenticated device/playlist reads. It prints counts, not account content or credentials.
-6. In the desktop app's MCP server settings, restart the MCP connection. Then ask: "Review my TRMNL playlist using trmnl-playlist."
+6. In the desktop app's MCP server settings, restart the MCP connection. Then ask: "Review my TRMNL playlist using trmnl-api."
 
 The server can start and advertise tools before a credential exists; tools return a clear setup error until the key is supplied. It reads the key on every call, so changing the saved key does not require restarting the server.
 

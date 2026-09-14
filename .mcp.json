@@ -1,8 +1,10 @@
 {
   "mcpServers": {
-    "trmnl-playlist": {
+    "trmnl-api": {
       "command": "node",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/src/index.js"]
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/src/index.js"
+      ]
     }
   }
 }
