@@ -1,0 +1,23 @@
+{
+  "name": "trmnl-api-mcp",
+  "version": "0.2.0",
+  "description": "Read and manage TRMNL playlist entries, ordering, visibility and weekly schedules.",
+  "author": {
+    "name": "Local developer"
+  },
+  "interface": {
+    "displayName": "TRMNL API MCP",
+    "shortDescription": "Read and manage your TRMNL playlists.",
+    "longDescription": "A local MCP server for inspecting devices and managing playlist entries, ordering, visibility and weekly display schedules using an account API key.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Review my TRMNL playlist and its weekly schedule."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

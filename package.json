@@ -1,0 +1,19 @@
+{
+  "name": "trmnl-api-mcp",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Local MCP access to read and manage TRMNL playlists",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "check": "node scripts/check-connection.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "zod": "4.6.5"
+  }
+}
